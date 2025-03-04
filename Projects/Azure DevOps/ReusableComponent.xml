@@ -1,11 +1,11 @@
 <Root ref="Azure DevOps" type="RC">
     <Folder ref="INGeniousTesting">
-        <Scenario ref="Common">
-            <TestCase exeType="Executable" ref="Login"/>
-            <TestCase exeType="Executable" ref="Logout"/>
-        </Scenario>
         <Scenario ref="Operations">
             <TestCase exeType="Executable" ref="Buy bag"/>
+        </Scenario>
+        <Scenario ref="Common">
+            <TestCase exeType="Executable" ref="Logout"/>
+            <TestCase exeType="Executable" ref="Login"/>
         </Scenario>
     </Folder>
 </Root>
