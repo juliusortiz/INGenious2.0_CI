@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,add-to-cart-sauce-labs-backpack,"Click the [<Object>] ",Click,,,Test
+2,shopping-cart-link,"Click the [<Object>] ",Click,,,Test
+3,checkout,"Click the [<Object>] ",Click,,,Test
+4,firstName,"Click the [<Object>] ",Click,,,Test
+5,firstName,Enter the value [<Data>] in the Field [<Object>],Fill,@Juan,,Test
+6,lastName,"Click the [<Object>] ",Click,,,Test
+7,lastName,Enter the value [<Data>] in the Field [<Object>],Fill,@Dela Cruz,,Test
+8,postalCode,"Click the [<Object>] ",Click,,,Test
+9,postalCode,Enter the value [<Data>] in the Field [<Object>],Fill,@1102,,Test
+10,continue,"Click the [<Object>] ",Click,,,Test
+11,finish,"Click the [<Object>] ",Click,,,Test
+12,back-to-products,"Click the [<Object>] ",Click,,,Test

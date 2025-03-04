@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,User,Password
+Transactions,MyFirstTest,1,1,standard_user,secret_sauce
+Transactions,MySecondTest,1,1,standard_user,secret_sauce
+Transactions,MyThirdTest,1,1,standard_user,secret_sauce

@@ -1,0 +1,113 @@
+{
+  "id" : "Azure DevOps",
+  "name" : "Azure DevOps",
+  "version" : "1.3",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.ing.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.ing.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.ing.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.ing.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Operations",
+    "ref" : "com.ing.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Transactions",
+    "ref" : "com.ing.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Common",
+    "ref" : "com.ing.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Operations#Buy bag",
+    "name" : "Buy bag",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Operations"
+    } ]
+  }, {
+    "id" : "Transactions#MyFirstTest",
+    "name" : "MyFirstTest",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Transactions"
+    } ]
+  }, {
+    "id" : "Common#Logout",
+    "name" : "Logout",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Common"
+    } ]
+  }, {
+    "id" : "Common#Login",
+    "name" : "Login",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Common"
+    } ]
+  }, {
+    "id" : "MySecondTest",
+    "name" : "MySecondTest",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Transactions"
+    } ]
+  }, {
+    "id" : "MyThirdTest",
+    "name" : "MyThirdTest",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Transactions"
+    } ]
+  } ]
+}

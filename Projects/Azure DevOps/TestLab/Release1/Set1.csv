@@ -1,0 +1,4 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Transactions,MyFirstTest,Single,Passed,Chromium,Default,Any
+true,Transactions,MySecondTest,Single,Passed,Chromium,Default,Any
+true,Transactions,MyThirdTest,Single,Passed,Chromium,Default,Any
